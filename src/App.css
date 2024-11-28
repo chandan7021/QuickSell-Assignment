@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+}
+
+.controls select {
+  padding: 5px;
+}
+
+.kanban {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  width: 90%;
+}
+
+.group {
+  flex: 1;
+  min-width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.group h3 {
+  margin-top: 0;
+}
+
+.ticket-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ticket {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.ticket h4 {
+  margin: 0 0 5px 0;
+}
+
+.ticket p {
+  margin: 0;
+}
